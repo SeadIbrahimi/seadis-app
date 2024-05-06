@@ -16,7 +16,7 @@ const Motions = ( {children, width}: Props) => {
     if (isInView) {
       mainControls.start("visable");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   return (
     <div ref={ref}>
