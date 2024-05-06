@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter  basename="/MyApp">
+    <BrowserRouter  basename="/seadis-app">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
