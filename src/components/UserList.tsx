@@ -232,7 +232,7 @@ function UserList() {
                 }).map((_, index) => (
                   <li key={index}>
                     <button
-                      className={`flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-300 hover:
+                      className={`flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-900  rounded-lg border border-gray-300 hover:bg-gray-300 hover:
                       ${
                         currentPage === index + 1
                           ? "text-white bg-gray-800 border-primary-300 hover:bg-gray-600 hover:text-white "
