@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Motions from "./Motions";
 import UserListHeader from "./UserListHeader";
@@ -96,7 +96,7 @@ function UserList() {
         />
 
         {/* Users List */}
-
+      <Motions>
         <div className="overflow-x-auto">
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
@@ -210,7 +210,7 @@ function UserList() {
             </table>
           </div>
         </div>
-
+        </Motions>
         {/* Pagination */}
         <Motions>
           <div className="relative overflow-hidden bg-gray-100 rounded-b-lg shadow-md ">
@@ -232,9 +232,10 @@ function UserList() {
                 }).map((_, index) => (
                   <li key={index}>
                     <button
-                      className={`flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-300 hover:  ${
+                      className={`flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-300 hover:
+                      ${
                         currentPage === index + 1
-                          ? "text-white bg-gray-500 border-primary-300 hover:bg-gray-600 hover:text-white "
+                          ? "text-white bg-gray-800 border-primary-300 hover:bg-gray-600 hover:text-white "
                           : ""
                       }`}
                       onClick={() => handlePageChange(index + 1)}
