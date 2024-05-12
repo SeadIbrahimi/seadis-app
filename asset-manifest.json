@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/seadis-app/static/css/main.0806acc1.css",
-    "main.js": "/seadis-app/static/js/main.30a6bb2f.js",
+    "main.js": "/seadis-app/static/js/main.0eebc057.js",
     "static/js/453.660e51dd.chunk.js": "/seadis-app/static/js/453.660e51dd.chunk.js",
     "static/media/Hero.jpg": "/seadis-app/static/media/Hero.30d996dc81e45e9dcb6a.jpg",
     "index.html": "/seadis-app/index.html",
     "main.0806acc1.css.map": "/seadis-app/static/css/main.0806acc1.css.map",
-    "main.30a6bb2f.js.map": "/seadis-app/static/js/main.30a6bb2f.js.map",
+    "main.0eebc057.js.map": "/seadis-app/static/js/main.0eebc057.js.map",
     "453.660e51dd.chunk.js.map": "/seadis-app/static/js/453.660e51dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0806acc1.css",
-    "static/js/main.30a6bb2f.js"
+    "static/js/main.0eebc057.js"
   ]
 }
